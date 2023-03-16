@@ -37,7 +37,6 @@ p {
   font-weight: 300;
   font-size: 18px;
   line-height: 21px;
-  text-align: center;
   color: #353535;
 }
 
@@ -223,5 +222,108 @@ p {
 }
 
 .bk-grey-colum {
-  background-color: ;
+  background-color: #f7f7f7;
+}
+
+.title-restaurants {
+  margin-left: 40px;
+}
+
+.card-restaurants {
+  width: 90%;
+  background-color: #ffffff;
+  align-items: center;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+.bk-grey-colum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para-card {
+  margin-top: 9px;
+  margin-left: 16px;
+}
+
+.title-card {
+  margin-left: 16px;
+}
+
+.fa-heart {
+  font-size: xx-large;
+}
+
+.img-resta {
+  width: 100%;
+  height: 17rem;
+  border-radius: 25px 25px 0px 0px;
+  object-fit: cover;
+}
+
+.nouveau {
+  /* Rectangle 3 */
+  position: absolute;
+  width: 80px;
+  height: 29px;
+  right: 0px;
+  top: calc(50% - 29px / 2);
+  /* Green */
+  background: #99e2d0;
+  /* Shadow/Badge */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  /* Green Font */
+
+  color: #008766;
+}
+
+.position-nouveau {
+  position: absolute;
+  margin-left: 87%;
+  margin-top: 2%;
+}
+
+.position-heart-1 {
+  position: absolute;
+  left: 86%;
+  right: 0%;
+  top: 153%;
+  bottom: 0%;
+}
+
+.position-heart-2 {
+  position: absolute;
+  left: 86%;
+  right: 0%;
+  top: 202%;
+  bottom: 0%;
+}
+
+.position-heart-3 {
+  position: absolute;
+  left: 86%;
+  right: 0%;
+  top: 253%;
+  bottom: 0%;
+}
+
+.position-heart-4 {
+  position: absolute;
+  left: 86%;
+  right: 0%;
+  top: 302%;
+  bottom: 0%;
 }
