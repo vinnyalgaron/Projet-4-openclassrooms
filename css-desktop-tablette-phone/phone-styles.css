@@ -354,3 +354,32 @@ p {
 .fa-handshake-angle {
   padding-right: 10px;
 }
+
+
+
+/* La Palette du goût 3 */
+
+.img-palette {
+width: 100%;
+}
+
+.Palette-grey-box {
+  display: flex;
+  flex-direction: column;
+  background: #F7F7F7;
+  padding: 10px;
+}
+
+.title-pallette {
+  display: flex;
+  font-family: 'Shrikhand';
+font-style: italic;
+font-weight: 400;
+font-size: 28px;
+line-height: 41px;
+color: #101010;
+}
+
+.fa-heart-pallete {
+  padding-left: 82%;
+}
