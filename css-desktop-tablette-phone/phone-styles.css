@@ -96,7 +96,8 @@ p {
 }
 
 .decouvrez-width {
-  width: 72%;
+  width: 74%;
+  margin-bottom: 39px;
 }
 
 .btn-gradiant {
@@ -143,6 +144,9 @@ p {
   text-align: center;
   margin-bottom: 31px;
 }
+.rect-restaurant:hover {
+  background: #F5EDFF;
+}
 
 .rect-restaurant:hover {
   background: #f5edff;
@@ -150,6 +154,7 @@ p {
 
 .rect-restaurant-déguster:hover {
   background: #f5edff;
+
 }
 .restaurant {
   font-family: "Roboto";
