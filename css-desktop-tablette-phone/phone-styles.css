@@ -145,7 +145,7 @@ p {
   margin-bottom: 31px;
 }
 .rect-restaurant:hover {
-  background: #F5EDFF;
+  background: #f5edff;
 }
 
 .rect-restaurant:hover {
@@ -154,7 +154,6 @@ p {
 
 .rect-restaurant-déguster:hover {
   background: #f5edff;
-
 }
 .restaurant {
   font-family: "Roboto";
@@ -358,4 +357,117 @@ p {
 
 .fa-handshake-angle {
   padding-right: 10px;
+}
+
+/* La pallete du goût */
+
+.img-pallete {
+  width: 100%;
+}
+
+.pallete-grey-box {
+  display: flex;
+  flex-direction: column;
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.fa-pad {
+  padding-left: 19%;
+}
+
+.title-pallete {
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 41px;
+  color: #101010;
+}
+
+.entrees {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 6px;
+}
+
+.entree-pallete {
+}
+
+.white-box-palette {
+  background: #ffffff;
+  box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+  border-radius: 15.0431px;
+  padding: 9px;
+  margin-bottom: 17px;
+}
+
+.p-pallete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.t-pallette {
+  margin: 5px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21,09px;
+}
+
+.euro {
+  margin-left: 47%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #353535;
+}
+
+.flexx {
+  display: flex;
+}
+
+.euro-1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #353535;
+}
+
+.euro-3 {
+  margin-left: 22%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #353535;
+}
+
+.border-bottom {
+  border-bottom: 3px solid;
+  color: #99E2D0;
+  width: 41px;
+  margin-bottom: 17px;
 }
