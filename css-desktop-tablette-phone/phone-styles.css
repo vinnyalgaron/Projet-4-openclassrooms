@@ -155,7 +155,7 @@ p {
 }
 
 .title-fonc {
-  margin-left: 40px;
+  margin-left: 22px;
 }
 
 .fa-1 {
@@ -226,7 +226,7 @@ p {
 }
 
 .title-restaurants {
-  margin-left: 40px;
+  margin-right: 58%;
 }
 
 .card-restaurants {
@@ -253,6 +253,7 @@ p {
 }
 
 .fa-heart {
+  position: absolute;
   font-size: xx-large;
 }
 
@@ -296,34 +297,35 @@ p {
   margin-top: 2%;
 }
 
-.position-heart-1 {
+.position-heart {
   position: absolute;
-  left: 86%;
-  right: 0%;
-  top: 153%;
-  bottom: 0%;
+  margin-left: 79%;
+  margin-top: -6%;
 }
 
-.position-heart-2 {
-  position: absolute;
-  left: 86%;
-  right: 0%;
-  top: 202%;
-  bottom: 0%;
+
+.backg-black {
+  background: #353535;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  line-height: 6px;
 }
 
-.position-heart-3 {
-  position: absolute;
-  left: 86%;
-  right: 0%;
-  top: 253%;
-  bottom: 0%;
+.wrap-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
 }
 
-.position-heart-4 {
-  position: absolute;
-  left: 86%;
-  right: 0%;
-  top: 302%;
-  bottom: 0%;
+.title-ohmy {
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
 }
