@@ -265,17 +265,13 @@ p {
 }
 
 .para-card {
-  margin-top: 9px;
+  margin-top: -3%;
   margin-left: 16px;
 }
 
 .title-card {
+  margin-bottom: -10px;
   margin-left: 16px;
-}
-
-.fa-heart {
-  position: absolute;
-  font-size: xx-large;
 }
 
 .img-resta {
@@ -320,10 +316,18 @@ p {
 }
 
 .position-heart {
-  position: absolute;
-  margin-left: 79%;
-  margin-top: -6%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
 }
+
+
+
+.fa-heart {
+  font-size: 10px;
+  font-size: xx-large;
+}
+
 
 .backg-black {
   background: #353535;
@@ -374,10 +378,12 @@ p {
 }
 
 .fa-pad {
-  padding-left: 19%;
+  padding-right: 60px;
 }
 
 .title-pallete {
+  display: flex;
+  justify-content: space-between;
   font-family: "Shrikhand";
   font-style: italic;
   font-weight: 400;
