@@ -336,7 +336,7 @@ p {
 .my-heart-full:active {
   opacity: 1;
   color: transparent;
-  background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  background-image: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%);
   background-clip: text;
   -webkit-background-clip: text;
 }
