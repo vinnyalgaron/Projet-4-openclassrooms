@@ -69,6 +69,7 @@ p {
   background-color: #eaeaea;
   text-align: center;
   border: #353535;
+  outline: none;
 }
 
 ::placeholder {
@@ -96,7 +97,7 @@ p {
 }
 
 .decouvrez-width {
-  width: 74%;
+  width: 84%;
   margin-bottom: 39px;
 }
 
@@ -315,19 +316,30 @@ p {
   margin-top: 2%;
 }
 
-.position-heart {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 25px;
-}
-
-
-
-.fa-heart {
-  font-size: 10px;
+.heart {
+  position: absolute;
   font-size: xx-large;
 }
 
+.position-heart {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-bottom: 35px;
+}
+.my-heart-full {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+.my-heart-full:active {
+  opacity: 1;
+  color: transparent;
+  background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
 
 .backg-black {
   background: #353535;
@@ -432,7 +444,7 @@ p {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 18px;
-  line-height: 21,09px;
+  line-height: 21, 09px;
 }
 
 .euro {
@@ -473,7 +485,7 @@ p {
 
 .border-bottom {
   border-bottom: 3px solid;
-  color: #99E2D0;
+  color: #99e2d0;
   width: 41px;
   margin-bottom: 17px;
 }
