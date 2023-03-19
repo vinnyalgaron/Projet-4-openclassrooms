@@ -190,7 +190,7 @@ p {
   position: absolute;
   margin-right: 85%;
   font-size: smaller;
-  margin-bottom: 7%;
+  margin-bottom: 27px;
 }
 
 .fa-2 {
@@ -203,7 +203,7 @@ p {
   position: absolute;
   margin-right: 85%;
   font-size: smaller;
-  margin-bottom: 7%;
+  margin-bottom: 28px;
 }
 
 .fa-3 {
@@ -216,7 +216,7 @@ p {
   position: absolute;
   margin-right: 85%;
   font-size: smaller;
-  margin-bottom: 14%;
+  margin-bottom: 56px;
 }
 
 .rect-restaurant-déguster {
@@ -266,12 +266,12 @@ p {
 }
 
 .para-card {
-  margin-top: -3%;
+  margin-top: 0px;
   margin-left: 16px;
 }
 
 .title-card {
-  margin-bottom: -10px;
+  margin-bottom: -19px;
   margin-left: 16px;
 }
 
@@ -339,6 +339,7 @@ p {
   background-image: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%);
   background-clip: text;
   -webkit-background-clip: text;
+  cursor: pointer;
 }
 
 .backg-black {
@@ -373,6 +374,10 @@ p {
 
 .fa-handshake-angle {
   padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* La pallete du goût */
@@ -488,4 +493,8 @@ p {
   color: #99e2d0;
   width: 41px;
   margin-bottom: 17px;
+}
+
+.position-text-heart {
+  align-items: center;
 }
