@@ -43,6 +43,8 @@ p {
 .logo-homepage {
   display: flex;
   justify-content: center;
+  box-shadow: 0px 5px 5px lightgrey;
+  margin-bottom: 5px;
 }
 
 .size-logo {
@@ -190,7 +192,7 @@ p {
   position: absolute;
   margin-right: 85%;
   font-size: smaller;
-  margin-bottom: 27px;
+  margin-bottom: 28px;
 }
 
 .fa-2 {
@@ -248,7 +250,9 @@ p {
 }
 
 .title-restaurants {
-  margin-right: 58%;
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
 }
 
 .card-restaurants {
@@ -381,7 +385,10 @@ a {
 }
 
 /* La pallete du goût */
-
+.logo-homepage-pallete {
+  display: flex;
+  justify-content: center;
+}
 .img-pallete {
   width: 100%;
 }
@@ -498,3 +505,12 @@ a {
 .position-text-heart {
   align-items: center;
 }
+
+.fa-arrow-left {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: x-large;
+}
+
+/* loader */
