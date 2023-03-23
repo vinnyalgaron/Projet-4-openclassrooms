@@ -261,6 +261,8 @@ p {
   align-items: center;
   border-radius: 25px;
   margin-bottom: 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .bk-grey-colum {
@@ -322,7 +324,7 @@ p {
 
 .heart {
   position: absolute;
-  font-size: xx-large;
+  font-size: 24px;
 }
 
 .position-heart {
@@ -381,7 +383,7 @@ p {
 }
 
 a {
-  text-decoration: none;
+  color: inherit;
 }
 
 /* La pallete du goût */
@@ -398,7 +400,9 @@ a {
   flex-direction: column;
   background: #f7f7f7;
   padding: 15px;
-  border-radius: 25px 25px 0px 0px;
+  border-radius: 40px 40px 0px 0px;
+  position: relative;
+  margin-top: -4rem;
 }
 
 .fa-pad {
@@ -439,8 +443,6 @@ a {
 }
 
 .p-pallete {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   margin: 5px;
   font-family: "Roboto";
@@ -449,6 +451,16 @@ a {
   font-size: 15px;
   line-height: 20px;
   color: #000000;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.position-heart-menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
 }
 
 .t-pallette {
@@ -460,7 +472,6 @@ a {
 }
 
 .euro {
-  margin-left: 47%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -485,7 +496,6 @@ a {
 }
 
 .euro-3 {
-  margin-left: 22%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -513,4 +523,79 @@ a {
   font-size: x-large;
 }
 
+.btn-wrap-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.btn-gradiant-menu {
+  background: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 16px 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 14rem;
+}
+
+.flex-price-para {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* fa-circle-check */
+
 /* loader */
+/*
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(0,0%,100%,.9);
+  z-index: 1000;
+  animation-delay: 1.75s;
+  animation-fill-mode: both;
+}
+
+.loader-active {
+  display: flex;
+}
+
+
+
+.loader::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background: #009578;
+  animation: loader 0.5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes loader {
+  from {
+    transform: translateY(-50px) scale(0.5);
+    border-radius: 50%;
+  }
+  to {
+    transform: translateY(50px) scale(1);
+    border-radius: 0%;
+  }
+
+}
+*/
