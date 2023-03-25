@@ -637,17 +637,14 @@ a {
 
 .delay-0 {
   animation: slideup 1s forwards;
-
 }
 
 .delay-1 {
   animation: slideup 2s forwards;
-
 }
 
 .delay-2 {
   animation: slideup 3s forwards;
-
 }
 
 .delay-3 {
@@ -672,17 +669,14 @@ a {
 .delay-8 {
   animation: slideup 9s forwards;
 }
-.delay-9 {
-  animation: slideup 10s forwards;
-}
 
 @keyframes slideup {
   0% {
-    transform: translatey(20px);
+    transform: translatey(500px);
     opacity: 0%;
-}
-100% {
+  }
+  100% {
     transform: translatey(0px);
     opacity: 100%;
-}
+  }
 }
