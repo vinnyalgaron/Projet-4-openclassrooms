@@ -354,6 +354,7 @@ p {
   flex-direction: column;
   padding-left: 20px;
   line-height: 6px;
+  z-index: 999;
 }
 
 .wrap-text {
@@ -438,18 +439,19 @@ a {
   border-radius: 15.0431px;
   padding: 9px;
   margin-bottom: 17px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .p-pallete {
   align-items: center;
-  margin: 5px;
+  margin: 2px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
   color: #000000;
-
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -462,11 +464,14 @@ a {
 }
 
 .t-pallette {
-  margin: 5px;
+  margin: 2px;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 18px;
   line-height: 21, 09px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .euro {
@@ -477,6 +482,9 @@ a {
   line-height: 18px;
   text-align: center;
   color: #353535;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 5px;
 }
 
 .flexx {
@@ -491,6 +499,9 @@ a {
   line-height: 18px;
   text-align: center;
   color: #353535;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 5px;
 }
 
 .euro-3 {
@@ -501,6 +512,9 @@ a {
   line-height: 18px;
   text-align: center;
   color: #353535;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 5px;
 }
 
 .border-bottom {
@@ -548,11 +562,40 @@ a {
 
 .flex-price-para {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 /* fa-circle-check */
 
+.flex-card-green {
+  display: flex;
+}
+.backg-green {
+  background-color: #99e2d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 15.0431px 15.0431px 0px;
+  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,
+    opacity 0.4s ease-in-out;
+  opacity: 100;
+  width: 0;
+}
+.white-box-palette:hover {
+  border-radius: 15.0431px 0px 0px 15.0431px;
+}
+.backg-green:hover {
+  opacity: 100%;
+  width: 5rem;
+  height: 5rem;
+}
+.fa-circle-check {
+  font-size: 1.5rem;
+  color: white;
+}
 /* loader */
 
 .loader {
@@ -637,37 +680,50 @@ a {
 
 .delay-0 {
   animation: slideup 1s forwards;
+  width: -webkit-fill-available;
 }
 
 .delay-1 {
   animation: slideup 2s forwards;
+  width: -webkit-fill-available;
 }
 
 .delay-2 {
   animation: slideup 3s forwards;
+  width: -webkit-fill-available;
 }
 
 .delay-3 {
   animation: slideup 4s forwards;
+  width: -webkit-fill-available;
 }
 
 .delay-4 {
   animation: slideup 5s forwards;
+  width: -webkit-fill-available;
 }
 
 .delay-5 {
   animation: slideup 6s forwards;
+  width: -webkit-fill-available;
 }
 
 .delay-6 {
   animation: slideup 7s forwards;
+  width: -webkit-fill-available;
 }
 .delay-7 {
   animation: slideup 8s forwards;
+  width: -webkit-fill-available;
 }
 
 .delay-8 {
   animation: slideup 9s forwards;
+  width: -webkit-fill-available;
+}
+.delay-9 {
+  animation: slideup 10s forwards;
+  width: -webkit-fill-available;
 }
 
 @keyframes slideup {
