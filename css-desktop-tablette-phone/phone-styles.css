@@ -437,8 +437,11 @@ a {
   background: #ffffff;
   box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
   border-radius: 15.0431px;
-  padding: 9px;
-  margin-bottom: 17px;
+  padding: 10px;
+  width: 100%;
+}
+
+.titre-para-price-menu {
   display: flex;
   justify-content: space-between;
 }
@@ -568,12 +571,36 @@ a {
   white-space: nowrap;
 }
 
+.flex-menu-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  animation: slideup 1.5s forwards;
+  display: flex;
+}
+
+.flex-menu-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  animation: slideup 2.5s forwards;
+  display: flex;
+}
+
+.flex-menu-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  animation: slideup 3.5s forwards;
+  display: flex;
+}
+
 /* fa-circle-check */
 
 .flex-card-green {
   display: flex;
 }
-.backg-green {
+.delay-0 .backg-green {
   background-color: #99e2d0;
   display: flex;
   justify-content: center;
@@ -581,20 +608,26 @@ a {
   border-radius: 0px 15.0431px 15.0431px 0px;
   transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,
     opacity 0.4s ease-in-out;
-  opacity: 100;
+  opacity: 0;
   width: 0;
+}
+
+.delay-0:hover .backg-green {
+  opacity: 100%;
+  width: 5rem;
+  height: 4.3rem;
+}
+
+.fa-circle-check {
+  font-size: 1.5rem;
+  color: white;
 }
 .white-box-palette:hover {
   border-radius: 15.0431px 0px 0px 15.0431px;
 }
-.backg-green:hover {
-  opacity: 100%;
-  width: 5rem;
-  height: 5rem;
-}
-.fa-circle-check {
-  font-size: 1.5rem;
-  color: white;
+
+.delay-0:hover .white-box-palette {
+  border-radius: 15.0431px 0px 0px 15.0431px;
 }
 /* loader */
 
@@ -681,49 +714,7 @@ a {
 .delay-0 {
   animation: slideup 1s forwards;
   width: -webkit-fill-available;
-}
-
-.delay-1 {
-  animation: slideup 2s forwards;
-  width: -webkit-fill-available;
-}
-
-.delay-2 {
-  animation: slideup 3s forwards;
-  width: -webkit-fill-available;
-}
-
-.delay-3 {
-  animation: slideup 4s forwards;
-  width: -webkit-fill-available;
-}
-
-.delay-4 {
-  animation: slideup 5s forwards;
-  width: -webkit-fill-available;
-}
-
-.delay-5 {
-  animation: slideup 6s forwards;
-  width: -webkit-fill-available;
-}
-
-.delay-6 {
-  animation: slideup 7s forwards;
-  width: -webkit-fill-available;
-}
-.delay-7 {
-  animation: slideup 8s forwards;
-  width: -webkit-fill-available;
-}
-
-.delay-8 {
-  animation: slideup 9s forwards;
-  width: -webkit-fill-available;
-}
-.delay-9 {
-  animation: slideup 10s forwards;
-  width: -webkit-fill-available;
+  display: flex;
 }
 
 @keyframes slideup {
