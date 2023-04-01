@@ -14,6 +14,7 @@
     border-radius: 15.0431px;
     padding: 10px;
     width: 61%;
+    overflow: hidden;
   }
   .title-pallete {
     display: flex;

@@ -461,6 +461,7 @@ a {
   border-radius: 15.0431px;
   padding: 10px;
   width: 100%;
+  overflow: hidden;
 }
 
 .titre-para-price-menu {
