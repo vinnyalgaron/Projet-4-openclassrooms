@@ -439,6 +439,12 @@ a {
   line-height: 41px;
   color: #101010;
   margin-bottom: 0rem;
+  font-family: 'Shrikhand';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 41px;
+  color: #101010;
 }
 
 .entrees {
