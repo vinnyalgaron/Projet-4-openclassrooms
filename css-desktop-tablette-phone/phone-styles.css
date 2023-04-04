@@ -355,7 +355,7 @@ p {
   transition-duration: 2s;
 }
 
-.my-heart-full:active {
+.my-heart-full:hover {
   opacity: 1;
   color: transparent;
   background-image: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%);
