@@ -586,6 +586,7 @@ a {
   justify-content: center;
   color: white;
   width: 14rem;
+  z-index: 9;
 }
 
 .flex-price-para {
@@ -596,12 +597,13 @@ a {
   white-space: nowrap;
 }
 
+/* slide-up */
+
 .flex-menu-1 {
   display: flex;
   flex-direction: column;
   gap: 1.3rem;
   animation: slideup 1.5s forwards;
-  display: flex;
 }
 
 .flex-menu-2 {
@@ -609,7 +611,6 @@ a {
   flex-direction: column;
   gap: 1.3rem;
   animation: slideup 2.5s forwards;
-  display: flex;
 }
 
 .flex-menu-3 {
@@ -617,14 +618,26 @@ a {
   flex-direction: column;
   gap: 1.3rem;
   animation: slideup 3.5s forwards;
+}
+
+.delay-0 {
+  width: -webkit-fill-available;
   display: flex;
+}
+
+@keyframes slideup {
+  0% {
+    transform: translatey(500px);
+    opacity: 0%;
+  }
+  100% {
+    transform: translatey(0px);
+    opacity: 100%;
+  }
 }
 
 /* fa-circle-check */
 
-.flex-card-green {
-  display: flex;
-}
 .delay-0 .backg-green {
   background-color: #99e2d0;
   display: flex;
@@ -652,9 +665,9 @@ a {
 }
 
 .delay-0:hover .white-box-palette {
-  border-radius: 15.0431px 0px 0px 15.0431px;
   overflow: hidden;
 }
+
 /* loader */
 
 .loader {
@@ -676,23 +689,11 @@ a {
   position: relative;
   width: 5rem;
   height: 5rem;
-  border: 1rem solid rgb(128, 128, 128);
-  border-color: #9356dc transparent #ff79da transparent;
+  border: 5rem solid rgb(128, 128, 128);
+  border-color: #9356dc #ff79da;
   border-radius: 50%;
   -webkit-animation: spinner 1.5s linear infinite;
   animation: spinner 1.5s linear infinite;
-}
-
-.loader_animation::after {
-  content: " ";
-  position: absolute;
-  border-radius: 9999px;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  width: 2rem;
-  height: 2rem;
-  background-color: #99e2d0;
 }
 
 @-webkit-keyframes loader {
@@ -711,7 +712,7 @@ a {
   0%,
   85% {
     opacity: 1;
-    z-index: 9999;
+    z-index: 999;
   }
   100% {
     opacity: 0;
@@ -732,24 +733,5 @@ a {
   }
   100% {
     transform: rotate(360deg);
-  }
-}
-
-/* slide-up */
-
-.delay-0 {
-  animation: slideup 1s forwards;
-  width: -webkit-fill-available;
-  display: flex;
-}
-
-@keyframes slideup {
-  0% {
-    transform: translatey(500px);
-    opacity: 0%;
-  }
-  100% {
-    transform: translatey(0px);
-    opacity: 100%;
   }
 }
