@@ -338,6 +338,8 @@ p {
   margin-top: 2%;
 }
 
+/* heart */
+
 .heart {
   position: absolute;
   font-size: 24px;
@@ -666,6 +668,7 @@ a {
 
 .delay-0:hover .white-box-palette {
   overflow: hidden;
+  border-radius: 15.0431px 0px 0px 15.0431px;
 }
 
 /* loader */
