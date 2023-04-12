@@ -742,3 +742,11 @@ a {
 .rect-restaurant:hover .fa-mobile-screen-button {
   color: #9356dc;
 }
+
+.rect-restaurant:hover .fa-list {
+  color: #9356dc;
+}
+
+.rect-restaurant-déguster:hover .fa-store {
+  color: #9356dc;
+}
