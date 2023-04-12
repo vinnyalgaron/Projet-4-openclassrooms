@@ -104,7 +104,7 @@ p {
 }
 
 .btn-gradiant {
-  background: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%);
+  background: linear-gradient(357.64deg, #9356dc -5.2%, #ff79da 120.74%);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
   border: none;
@@ -573,7 +573,7 @@ a {
 }
 
 .btn-gradiant-menu {
-  background: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%);
+  background: linear-gradient(357.64deg, #9356dc -5.2%, #ff79da 120.74%);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
   border: none;
@@ -737,4 +737,8 @@ a {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.rect-restaurant:hover .fa-mobile-screen-button {
+  color: #9356dc;
 }
